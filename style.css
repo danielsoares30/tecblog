@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #fdc800;
+    padding: 30px;
+    height: 100px;
+    display: flex;
+
+}
+#logo{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin-inline-start: 400px;
+    margin-top: -80px;
+
+}
+.informaçoes{
+    display: flex;
+    margin-top: 70px;
+    margin-inline-start: -280px;
+    gap: 30px;
+    padding: 10px;
+    list-style: none;
+}
+.informaçoes a{
+    text-decoration: none;
+    color: white;
+}
+.informaçoes a:hover{
+    background-color: #fdc800;
+    padding: 20px;
+}
+.artigo1{
+    width: 400px;
+    height: 100px;
+    padding-bottom: 300px;
+}
+#titulo1{
+    margin-left: 20px;
+    color: #fdc800;
+}
+#sub1{
+    margin-left: 20px;
+}
+#img1{
+    margin-left: 20px;
+    width: 400px;
+}
+.artigo2{
+    width: 400px;
+    height: 100px;
+    padding-bottom: 300px;
+    float: right;
+    margin-top: -420px;
+    margin-right: 100px;
+}
+#titulo2{
+    margin-left: 20px;
+    color: #fdc800;
+}
+#sub2{
+    margin-left: 20px;
+}
+#img2{
+    margin-right: 20px;
+    width: 400px;
+}
+.artigo3{
+    width: 400px;
+    height: 100px;
+    padding-bottom: 300px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+#titulo3{
+    margin-left: 20px;
+    color: #fdc800;
+}
+#sub3{
+    margin-left: 20px;
+}
+#img3{
+    margin-right: 20px;
+    width: 400px;
+}
+.artigo4{
+    width: 400px;
+    height: 100px;
+    padding-bottom: 300px;
+    float: right;
+    margin-top: -450px;
+    margin-right: 100px;
+}
+#titulo4{
+    margin-left: 20px;
+    color: #fdc800;
+}
+#sub4{
+    margin-left: 20px;
+}
+#img4{
+    margin-right: 20px;
+    width: 400px;
+}
+.forms{
+    background-color: #fdc800;
+    margin-top: 100px;
+    height: 300px;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#h3forms{
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+    margin-left: 250px;
+}
+input{
+    margin-bottom: 10px;
+    border: none;
+    transition: box-shadow 0.3s ease;
+}
+input:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
+}
+#Nome{
+    border-radius: 100px;
+    height: 30px;
+    width: 200px;
+   margin-left: 400px;
+}
+#email{
+    border-radius: 100px;
+    height: 30px;
+    width: 200px;
+   margin-left: 400px;
+}
+button{
+    margin-left: 400px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
