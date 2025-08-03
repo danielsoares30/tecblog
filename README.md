@@ -16,8 +16,8 @@ Este projeto é um **site de notícias de tecnologia**, com foco em um design mo
 
 ## 📌 Link do Projeto
 
-🔗 [**Acessar o site**](#)  
-**_(Em breve)_**
+🔗 https://danielsoares30.github.io/tecblog/
+
 
 ---
 
